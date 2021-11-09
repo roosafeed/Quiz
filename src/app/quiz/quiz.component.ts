@@ -36,10 +36,7 @@ export class QuizComponent implements OnInit {
      this.quiz.quizInit();
      this.isQuizActive = this.quiz.quizActive();
      this.btnText = "Next Question";
-    //  this.currQuestion = this.quiz.nextQuestion() || new Question({});
-    //  this.cur = this.quiz.getQuestionCount().cur + 1;
-    //  this.tot = this.quiz.getQuestionCount().tot;
-    this.next();
+     this.next();
   }
 
   endQuiz() {
@@ -62,6 +59,16 @@ export class QuizComponent implements OnInit {
     if(q != null)
     {
       this.currQuestion = q;
+
+      //shuffle options
+      var l = this.currQuestion.options.length, c;
+      var temp;
+      while(l) {
+        c = Math.floor(Math.random() * l--);
+        temp = this.currQuestion.options[l];
+        this.currQuestion.options[l] = this.currQuestion.options[c];
+        this.currQuestion.options[c] = temp;
+      }
     }
 
     this.cur = this.quiz.getQuestionCount().cur + 1;
