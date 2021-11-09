@@ -1,3 +1,21 @@
 <div *ngIf="isLoggedIn">
     <h2>Quiz</h2>
+
+    <button *ngIf="!isQuizActive" (click)="startQuiz()">Start Quiz</button>
+    <button *ngIf="isQuizActive" (click)="endQuiz()">End Quiz</button>
+
+    <div *ngIf="isQuizActive">
+        <p>{{cur}} of {{tot}}</p>
+        <h1>{{ currQuestion.question }}</h1>
+        <ul>
+            <li *ngFor="let o of currQuestion.options">
+                <input (change)="setChoice($event.target)" type="radio" [name]="currQuestion.id" [id]="o.id" [value]="o.id"> {{ o.value }}
+            </li>
+        </ul>
+
+    </div>    
+
+    
+
+    <button *ngIf="isQuizActive" (click)="next()">{{ btnText }}</button>
 </div>

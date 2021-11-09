@@ -1,0 +1,13 @@
+<div *ngIf="isLoggedIn">
+    <h1>Total: {{ point }} of {{ tot }}</h1>
+
+    <ul>
+        <li *ngFor="let r of results">
+            <h3>{{ r.question }}</h3>
+            <ul>
+                <li *ngFor="let o of r.options"> {{ o.value }} </li>
+            </ul>
+            <p>Your answer was <span *ngIf="!r.isCorrect">in</span>correct</p>
+        </li>
+    </ul>
+</div>

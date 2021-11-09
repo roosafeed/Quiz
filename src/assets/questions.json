@@ -1,0 +1,273 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Fathometer is used to measure",
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Ocean depth",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,
+                    "value": "Earthquakes",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,
+                    "value": "Rainfall",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,
+                    "value": "Sound intensity",
+                    "isAnswer": false
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "question": "Epsom(England) is the place associated with",
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Horse racing",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,
+                    "value": "Polo",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,
+                    "value": "Shooting",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,
+                    "value": "Snooker",
+                    "isAnswer": false
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "question": "Fastest Shorthand Writer was",
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Dr. G. D. Bist",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,
+                    "value": "J.R.D. Tata",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,
+                    "value": "J.M. Tagore",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,
+                    "value": "Khudada Khan",
+                    "isAnswer": false
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "question": "Golf player Vijay Singh belongs to which country?",
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Fiji",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,
+                    "value": "USA",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,
+                    "value": "India",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,
+                    "value": "UK",
+                    "isAnswer": false
+                }
+            ]
+        },
+
+        {
+            "id": 5,
+            "question": "“One People, One State, One leader” was the policy of",
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Hitler",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,
+                    "value": "Stalin",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,
+                    "value": "Mussolin",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,
+                    "value": "Lenin",
+                    "isAnswer": false
+                }
+            ]
+        },
+
+        {
+            "id": 6,
+            "question": "DRDL stands for",
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Defence Research and Development Laboratory",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,
+                    "value": "Department of Research and Development Laboratory",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,
+                    "value": "Differential Research and Documentation Laboratory",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,
+                    "value": "None of the above",
+                    "isAnswer": false
+                }
+            ]
+        },
+
+        {
+            "id": 7,
+            "question": "An astronaut in outer space will observe sky as",
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Black",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,
+                    "value": "Red",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,
+                    "value": "White",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,
+                    "value": "Blue",
+                    "isAnswer": false
+                }
+            ]
+        },
+
+        {
+            "id": 8,
+            "question": "Who is known as 'the father of Indian missile technology'?",
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Dr. A.P.J. Abdul Kalam",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,
+                    "value": "Dr. Chidambaram",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,
+                    "value": "Dr. Homi Bhabha",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,
+                    "value": "Dr. U.R. Rao",
+                    "isAnswer": false
+                }
+            ]
+        },
+
+        {
+            "id": 9,
+            "question": "Which is a green planet in the solar system?",
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Uranus",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,
+                    "value": "Mars",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,
+                    "value": "Venus",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,
+                    "value": "Pluto",
+                    "isAnswer": false
+                }
+            ]
+        },
+
+        {
+            "id": 10,
+            "question": "FFC stands for",
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Film Finance Corporation",
+                    "isAnswer": true
+                },
+                {
+                    "id": 2,
+                    "value": "Foreign Finance Corporation",
+                    "isAnswer": false
+                },
+                {
+                    "id": 3,
+                    "value": "Federation of Football Council",
+                    "isAnswer": false
+                },
+                {
+                    "id": 4,
+                    "value": "None of the above",
+                    "isAnswer": false
+                }
+            ]
+        }
+    ]
+}
